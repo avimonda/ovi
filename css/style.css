@@ -1,0 +1,264 @@
+/* *********common css start******** */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+section{
+    padding: 50px 0px ;
+}
+
+.global_heading{
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.sub_head{
+    font-size: 20px;
+}
+
+.btn {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 12px 35px;
+    text-transform: uppercase;
+    background: #e8631c;
+    color: #e8dfec;
+    border: none;
+    display: inline-block;
+    white-space: nowrap;
+    transition: all linear .3s;
+}
+.btn:hover {
+    transform: scale(1.05);
+}
+
+
+/* *********common css start******** */
+
+
+
+
+/* ***********menu section start************** */
+
+header{
+    width: 100%;
+    float: left;
+    background-color: #303030;
+    color: #fff;
+}
+
+
+nav{
+    width: 100%;
+    float: left;
+    padding: 10px 0px;
+}
+.logo_part{
+    width: 50%;
+    float: left  
+}
+.menu_part{
+    width: 50%;
+    float: left;
+    padding: 10px 0px;
+    text-align: end;  
+}
+
+.menu_part li{
+    display: inline-block;
+    margin: 0px 10px;
+    padding: 7px;
+    border-radius: 4px;
+    transition: all linear .4s;
+}
+
+.menu_part li:hover{
+    background-color: #00000074;
+}
+
+.menu_part a{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* ***********menu section end ************** */
+
+
+/* ***********banner section start ************** */
+
+.banner {
+    background: url(../img/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    padding-top: 255px;
+    padding-bottom: 155px;
+}
+.hero_part {
+    width: 50%;
+    float: left;
+    margin: 150px 0px;
+    text-align: center;
+    padding: 0 91px;
+}
+
+.hero_part h1 {
+    font-size: 70px;
+    font-weight: 700;
+    color: #fff;
+    margin-right: 38px;
+    margin-top: -92px;
+}
+
+.hero_part p {
+    font-size: 20px;
+    color: #fff;
+    margin: 19px 55px;
+}
+
+.btn_1{
+    margin-right: 135px;
+}
+
+.dance_tour{
+    background: url(../img/Musicology.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    float: left;
+    background-color:#e8631c ;
+    color: #fff;
+    text-align: center;
+}
+
+.box_part{
+    margin-top: 50px;
+    width: 100%;
+    float: left;  
+}
+
+.box .write_part {
+    background-color: #303030;
+    margin: 10px;
+}
+
+.box{
+    width: 33.33%;
+    float: left;
+    padding: 10px;
+}
+
+.box img {
+    width: 350px;
+    height: 350px;
+}
+.box h2 {
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.box p {
+    font-size: 20px;
+    padding: 5px 30px 15px;
+}
+
+
+/* ***********banner section end ************** */
+
+
+
+
+.price {
+    background: url(../img/dot.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    float: left;
+    background-color:#303030 ;
+    color: #fff;
+    text-align: center;
+}
+
+
+.price_box_part{
+    margin-top: 50px;
+    width: 100%;
+    float: left;  
+}
+
+.write_part {
+    background-color: none;
+    margin: 10px;
+}
+
+.price_box{
+    width:25%;
+    height: 370px;
+    float: left;
+    background-color: #e8631c;
+    margin-left: 90px;
+    border-radius: 10px;
+}
+
+.price_box img {
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.price_box h2 {
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.price_box p {
+    font-size: 20px;
+    padding: 15px 30px 15px;
+}
+
+.cost {
+    font-size: 18px;
+    text-transform: uppercase;
+    background: #303030;
+    color: #e8dfec;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
